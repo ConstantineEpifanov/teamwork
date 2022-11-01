@@ -1,0 +1,26 @@
+.page {
+    min-width: 320px;
+    max-width: 1280px;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    align-content: center;
+}
+
+/* Цвета
+
+#fecda7  в футере и заголовках
+#f2f2f2  в place
+black
+white */
