@@ -16,6 +16,9 @@
 
 /* Content */
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/__intro/content__intro.css);
+@import url(../blocks/content/__places/content__places.css);
+
 /* Intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -37,6 +40,7 @@
 /* Quote */
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__author/quote__author.css);
+@import url(../blocks/quote/__text/quote__text.css);
 
 
 /* Footer */

@@ -2,6 +2,7 @@
   max-width: min(27.813vw, 356px);
   aspect-ratio: 1;
   grid-area: image;
+  object-fit: cover;
 }
 
 /* в макете 800 на 800 */

@@ -7,7 +7,7 @@
   grid-template-rows: repeat(2, 1fr);
   background-color: #f2f2f2;
   column-gap: 72px;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 
 .place:nth-of-type(2n) {
@@ -15,7 +15,8 @@
   grid-template-areas:
     "title image"
     "text image";
-  row-gap: 96px;
+  row-gap: 20px;
+  padding-left: 72px;
 }
 
 .place:last-child {

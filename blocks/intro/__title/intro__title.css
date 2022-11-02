@@ -7,4 +7,6 @@
   color: #fecda7;
   grid-area: title;
   align-self: flex-end;
+  margin: 0;
+  padding: 0;
 }
