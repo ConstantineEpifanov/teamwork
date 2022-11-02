@@ -1,6 +1,8 @@
 .intro__image {
-    max-width: 25vw;
-    aspect-ratio: 1;
+  max-width: 27.813vw;
+  max-height: 27.813vw;
+  aspect-ratio: 1;
+  grid-area: image;
 }
 
 /* в макете 800 на 800 */

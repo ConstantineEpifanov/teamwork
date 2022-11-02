@@ -1,3 +1,11 @@
 .intro {
-    display: grid;
+  margin: 0;
+  padding: 0 160px 0 70px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: 38%;
+  grid-template-areas:
+    "title image"
+    "subtitle image";
+  row-gap: 22px;
 }
