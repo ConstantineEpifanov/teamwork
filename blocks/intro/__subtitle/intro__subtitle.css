@@ -1,7 +1,9 @@
 .intro__subtitle {
   margin: 0;
+  padding: 0;
   font-size: 33px;
   font-weight: 600;
   line-height: 125%;
   grid-area: subtitle;
+  align-self: flex-start;
 }

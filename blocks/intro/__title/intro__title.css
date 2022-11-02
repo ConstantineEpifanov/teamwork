@@ -1,6 +1,7 @@
 .intro__title {
-  font-size: 14px;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
   line-height: 100%;
   color: #fecda7;
   grid-area: title;
