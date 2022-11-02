@@ -1,6 +1,5 @@
 .intro__image {
-  max-width: 27.813vw;
-  max-height: 27.813vw;
+  max-width: min(27.813vw, 356px);
   aspect-ratio: 1;
   grid-area: image;
 }
