@@ -1,6 +1,6 @@
 .intro {
   margin: 0;
-  padding: 0 160px 0 70px;
+  padding-left: 70px;
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: 38%;
@@ -8,4 +8,5 @@
     "title image"
     "subtitle image";
   row-gap: 22px;
+  column-gap: 98px;
 }
