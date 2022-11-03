@@ -4,7 +4,7 @@
   font-weight: bold;
   line-height: 100%;
   color: black;
-  align-self: flex-end;
+  align-self: center;
   transition: all 0.2s ease-out;
 }
 
@@ -17,6 +17,6 @@
   .header__report {
     position: absolute;
     right: 40px;
-    top: 30px;
+    top: 34px;
   }
 }
