@@ -6,3 +6,9 @@
 }
 
 /* в макете 800 на 800 */
+
+@media screen and (max-width: 835px) {
+  .intro__image {
+    max-width: max(27.813vw, 230px);
+  }
+}

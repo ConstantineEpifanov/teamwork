@@ -1,8 +1,15 @@
 .quotes__subtitle {
-    margin: 0 0 95px;
-    padding: 0;
-    max-width: 400px;
-    font-size: 33px;
-    font-weight: 600;
-    line-height: 1.35;
+  margin: 0 0 95px;
+  padding: 0;
+  max-width: 400px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+@media screen and (max-width: 830px) {
+  .quotes__subtitle {
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
 }
