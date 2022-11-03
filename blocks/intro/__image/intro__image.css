@@ -12,3 +12,11 @@
     max-width: max(27.813vw, 230px);
   }
 }
+
+@media screen and (max-width: 550px) {
+  .intro__image {
+    max-width: calc(100vw - 2*40px);
+    aspect-ratio: 2/1;
+    object-position: top;
+  }
+}

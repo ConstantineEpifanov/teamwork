@@ -2,7 +2,7 @@
   font-size: 32px;
   font-weight: 600;
   margin: 0;
-  margin-top: 62px;
+  align-self: center;
   padding: 0;
   grid-column: 2/2;
   grid-row: 1/2;
@@ -12,6 +12,11 @@
 @media screen and (max-width: 830px) {
   .place__title {
     font-size: 24px;
-    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place__title {
+    max-width: 240px;
   }
 }

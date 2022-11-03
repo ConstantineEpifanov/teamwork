@@ -36,17 +36,17 @@
   .place {
     justify-items: center;
     grid-template-areas:
+    "image"
     "title"
-    "text"
-    "image";
+    "text";
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     grid-template-columns: minmax(min-content, max-content);
   }
   .place:nth-of-type(2n) {
     grid-template-areas:
+    "image"
     "title"
-    "text"
-    "image";
+    "text";
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     padding-left: 0;
   }
