@@ -4,11 +4,17 @@
   font-weight: bold;
   line-height: 100%;
   color: black;
-  align-self: center;
+  align-self: flex-end;
   transition: all 0.2s ease-out;
 }
 
 .header__report:hover {
   color: red;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 550px) {
+  .header__report {
+    align-self: start;
+  }
 }

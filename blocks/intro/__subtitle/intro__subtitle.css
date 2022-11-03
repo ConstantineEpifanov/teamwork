@@ -2,9 +2,28 @@
   margin: 0;
   padding: 0;
   max-width: 600px;
-  font-size: 33px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 125%;
   grid-area: subtitle;
   align-self: flex-start;
+}
+
+@media screen and (max-width: 870px) {
+  .intro__subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .intro__subtitle {
+    font-size: 18px;
+    line-height: 105%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__subtitle {
+    text-align: center;
+  }
 }

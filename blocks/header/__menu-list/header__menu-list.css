@@ -5,3 +5,9 @@
   list-style-type: none;
   column-gap: 35px;
 }
+
+@media screen and (max-width: 550px) {
+  .header__menu-list {
+    flex-direction: column;
+  }
+}

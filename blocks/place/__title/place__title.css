@@ -8,3 +8,10 @@
   grid-row: 1/2;
   grid-area: title;
 }
+
+@media screen and (max-width: 830px) {
+  .place__title {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+}
