@@ -1,5 +1,5 @@
 .quotes {
-    max-width: calc(100vw - 70px*2);
+  max-width: calc(100vw - 70px*2);
 }
 
 @media screen and (max-width: 830px) {
