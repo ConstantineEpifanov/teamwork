@@ -1,5 +1,6 @@
 .content__places {
   margin: 130px 0;
+  box-shadow: 0 5px 10px gray;
 }
 
 @media screen and (max-width: 830px) {
