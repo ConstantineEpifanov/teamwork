@@ -1,9 +1,10 @@
 .footer__animation_one {
   display: block;
   animation-name: wave;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0.47, 0.74, 0.77);
+  animation-timing-function: ease;
+  animation-delay: 4s;
 }
 
 @keyframes wave {
@@ -11,7 +12,7 @@
     transform: translateY();
   }
   50% {
-    transform: translateY(8px);
+    transform: translateY(5px);
   }
   100% {
     transform: translateY();
