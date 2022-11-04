@@ -13,7 +13,7 @@
     transform: translateY();
   }
   50% {
-    transform: translateY(8px);
+    transform: translateY(5px);
   }
   100% {
     transform: translateY();
