@@ -1,5 +1,5 @@
 .intro {
-  max-width: calc(100vw - 70px*2);
+  max-width: calc(100vw - 70px * 2);
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: 38%;
@@ -25,19 +25,17 @@
 @media screen and (max-width: 550px) {
   .intro {
     justify-items: center;
-    /* grid-template-columns: minmax(min-content, max-content); */
-    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-areas:
-    "image"
-    "title"
-    "subtitle";
+      "image"
+      "title"
+      "subtitle";
     column-gap: 0;
   }
 }
 
-
 @media screen and (max-width: 750px) {
   .intro {
-    max-width: calc(100vw - 40px*2);
+    max-width: calc(100vw - 40px * 2);
   }
 }
