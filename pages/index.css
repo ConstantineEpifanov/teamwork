@@ -5,14 +5,12 @@
 /* Page */
 @import url(../blocks/page/page.css);
 
-
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__report/header__report.css);
-
 
 /* Content */
 @import url(../blocks/content/content.css);
@@ -43,7 +41,19 @@
 @import url(../blocks/quote/__author/quote__author.css);
 @import url(../blocks/quote/__text/quote__text.css);
 
-
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* Animatiom */
+@import url(../blocks/footer/__animation/_t/footer__animation_t.css);
+@import url(../blocks/footer/__animation/_e/footer__animation_e.css);
+@import url(../blocks/footer/__animation/_a/footer__animation_a.css);
+@import url(../blocks/footer/__animation/_m/footer__animation_m.css);
+@import url(../blocks/footer/__animation/_one/footer__animation_one.css);
+@import url(../blocks/footer/__animation/_three/footer__animation_three.css);
+@import url(../blocks/footer/__animation/_copyright/footer__animation_copyright.css);
+@import url(../blocks/footer/__animation/_two/footer__animation_two.css);
+@import url(../blocks/footer/__animation/_zero/footer__animation_zero.css);
+@import url(../blocks/footer/__animation/_two-penult/footer__animation_two-penult.css);
+@import url(../blocks/footer/__animation/_two-last/footer__animation_two-last.css);
