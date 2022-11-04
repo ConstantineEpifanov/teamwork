@@ -14,7 +14,6 @@
   grid-template-areas:
     "title image"
     "text image";
-  row-gap: 20px;
   padding-left: 72px;
 }
 
@@ -25,7 +24,7 @@
 @media screen and (max-width: 1000px) {
   .place {
     column-gap: 25px;
-    grid-template-rows: 25%;  
+    grid-template-rows: 25%;
   }
   .place:last-child {
     grid-template-rows: 25%;
@@ -36,17 +35,17 @@
   .place {
     justify-items: center;
     grid-template-areas:
-    "image"
-    "title"
-    "text";
+      "image"
+      "title"
+      "text";
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     grid-template-columns: minmax(min-content, max-content);
   }
   .place:nth-of-type(2n) {
     grid-template-areas:
-    "image"
-    "title"
-    "text";
+      "image"
+      "title"
+      "text";
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     padding-left: 0;
   }

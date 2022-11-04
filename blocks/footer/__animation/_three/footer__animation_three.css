@@ -1,0 +1,19 @@
+.footer__animation_three {
+  display: block;
+  animation-name: wave;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0.3, 0.38, 0.99);
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY();
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY();
+  }
+}
