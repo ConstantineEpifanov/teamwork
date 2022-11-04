@@ -5,3 +5,4 @@
 - HTML
 - CSS
 - MD
+- и немного [_магии_](https://www.youtube.com/watch?v=Gy0ImtvCVz4 "Вжух")
