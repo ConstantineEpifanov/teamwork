@@ -1,9 +1,10 @@
 .footer__animation_two-penult {
   display: block;
   animation-name: wave;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.03, 0.5, 0.78, 0.46);
+  animation-timing-function: ease;
+  animation-delay: 4s;
 }
 
 @keyframes wave {

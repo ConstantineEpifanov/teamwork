@@ -1,9 +1,10 @@
 .footer__animation_copyright {
   display: block;
   animation-name: wave;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0.3, 0.12, 0.63);
+  animation-timing-function: ease;
+  animation-delay: 1s;
 }
 
 @keyframes wave {

@@ -1,9 +1,11 @@
 .footer__animation_three {
   display: block;
   animation-name: wave;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0.3, 0.38, 0.99);
+  animation-timing-function: ease;
+  transition-delay: 0s;
+  animation-direction: reverse;
 }
 
 @keyframes wave {
