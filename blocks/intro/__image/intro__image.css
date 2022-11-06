@@ -16,8 +16,8 @@
 @media screen and (max-width: 550px) {
   .intro__image {
     max-width: calc(100vw - 2 * 40px);
-    width: 150%;
-    max-height: 100%;
+    width: 150%; /*для отображения в FireFox*/
+    max-height: 100%; /*для отображения в FireFox*/
     aspect-ratio: 2/1;
     object-position: top;
   }
